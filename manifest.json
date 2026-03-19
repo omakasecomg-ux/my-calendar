@@ -1,0 +1,33 @@
+同じ画面ですね！今度は `manifest.json` を作ります。
+
+**① ファイル名欄に入力：**
+```
+manifest.json
+```
+
+**② 下の内容欄に貼り付け：**
+
+```json
+{
+  "name": "マイカレンダー",
+  "short_name": "カレンダー",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#E24B4A",
+  "icons": [
+    {
+      "src": "https://via.placeholder.com/192x192/E24B4A/ffffff?text=Cal",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://via.placeholder.com/512x512/E24B4A/ffffff?text=Cal",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
+```
+
+入力できたら右上の **「Commit changes...」** → **「Commit changes」** で保存してください！
